@@ -204,25 +204,28 @@ h2 {
     display: flex;
     flex-direction: column; /* Mantém os botões em coluna */
     align-items: center; /* Centraliza os botões */
-    gap: 10px; /* Reduz ainda mais o espaço entre os botões */
+    gap: 5px; /* Ajusta o espaçamento entre os botões */
 }
 
 .button2 {
-    display: inline-block;
-    padding: 0.5rem 1rem;
+    display: block; /* Torna o link um bloco para respeitar o padding */
+    padding: 10px 20px; /* Aumenta a área do botão */
     background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    width: 50px; /* Opcional: define um tamanho fixo para os botões */
+    width: 120px; /* Define uma largura mais realista */
     text-align: center;
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais destacado */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 5px; /* Remove margens desnecessárias */
+    border: none;
 }
 
 .button2:hover {
     background-color: #0056b3;
 }
+
 
 .language-selector {
     position: absolute;
