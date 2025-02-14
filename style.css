@@ -200,6 +200,30 @@ h2 {
     background-color: #005bb5;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column; /* Mantém os botões em coluna */
+    align-items: center; /* Centraliza os botões */
+    gap: 10px; /* Reduz ainda mais o espaço entre os botões */
+}
+
+.button2 {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 50px; /* Opcional: define um tamanho fixo para os botões */
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px; /* Remove margens desnecessárias */
+}
+
+.button2:hover {
+    background-color: #0056b3;
+}
+
 .language-selector {
     position: absolute;
     top: 20px;
