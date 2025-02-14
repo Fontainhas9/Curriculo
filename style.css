@@ -182,6 +182,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .button {
@@ -199,31 +200,6 @@ h2 {
 .button:hover {
     background-color: #005bb5;
 }
-.buttons {
-    display: flex;
-    flex-direction: column; /* Mantém os botões em coluna */
-    align-items: center; /* Centraliza os botões */
-    gap: 10px; /* Ajusta o espaçamento entre os botões */
-}
-
-.button2 {
-    display: block; /* Torna o link um bloco para respeitar o padding */
-    padding: 10px 20px; /* Aumenta a área do botão */
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 60px; /* Define uma largura mais realista */
-    text-align: center;
-    font-size: 14px; /* Ajusta o tamanho da fonte */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    border: none;
-}
-
-.button2:hover {
-    background-color: #0056b3;
-}
-
 
 .language-selector {
     position: absolute;
