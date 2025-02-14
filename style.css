@@ -199,7 +199,6 @@ h2 {
 .button:hover {
     background-color: #005bb5;
 }
-
 .buttons {
     display: flex;
     flex-direction: column; /* Mantém os botões em coluna */
@@ -214,10 +213,9 @@ h2 {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    width: 120px; /* Define uma largura mais realista */
+    width: 100px; /* Define uma largura mais realista */
     text-align: center;
     font-size: 16px; /* Ajusta o tamanho da fonte */
-    font-weight: bold; /* Deixa o texto mais destacado */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     border: none;
 }
