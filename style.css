@@ -215,7 +215,7 @@ h2 {
     border-radius: 5px;
     width: 60px; /* Define uma largura mais realista */
     text-align: center;
-    font-size: 16px; /* Ajusta o tamanho da fonte */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     border: none;
 }
