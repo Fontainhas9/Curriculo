@@ -323,3 +323,12 @@ header h1 {
     }
 
 }
+
+    ul.job-description {
+    text-align: justify;
+    }
+
+    ul.job-description li {
+        display: block;
+        width: 100%;
+    }
