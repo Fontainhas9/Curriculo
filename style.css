@@ -321,8 +321,8 @@ header h1 {
         width: 50%;
         margin: 1rem auto;
     }
-    .job-description li {
-    text-align: justify;
-}
 
 }
+    ul.job-description > li {
+        text-align: justify !important;
+    }
