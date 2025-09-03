@@ -202,30 +202,42 @@ section {
 
 .button-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-container.vertical-buttons {
-    display: flex;
-    flex-direction: column; /* coloca em lista */
-    align-items: center;    /* centraliza a coluna */
-    gap: 15px;              /* espaço entre botões */
+    flex-direction: row;
+    justify-content: center;  /* centraliza a linha */
+    align-items: center;      /* centraliza verticalmente */
+    gap: 30px;                /* espaço entre os botões */
     margin-top: 20px;
 }
 
+/* Botões padrão (vários botões) */
 .button {
-    display: block;
-    width: 80px;           /* largura fixa, todos iguais */
-    padding: 12px 20px;
+    display: flex;
+    justify-content: center;    /* centraliza horizontal */
+    align-items: center;        /* centraliza vertical */
+    width: 150px;               /* largura fixa */
+    min-height: 50px;           /* altura mínima */
+    padding: 10px;              /* espaçamento interno */
     text-align: center;
-    text-decoration: none;
+    white-space: normal;        /* permite quebra de linha */
+    word-wrap: break-word;      /* força quebra de palavras longas */
     border-radius: 6px;
     font-size: 15px;
-    background-color: #3498DB; /* mantém as cores */
+    background-color: #3498DB;
     color: white;
+    text-decoration: none;      /* remove sublinhado */
     transition: background 0.3s;
 }
+
+
+
+/* Quando há apenas um botão dentro do container */
+.button-container:has(.button:nth-child(1):only-child) .button {
+    width: 200px;   /* maior largura */
+    height: 60px;   /* maior altura */
+}
+
+
+
 
 .button:hover {
     background-color: #2C3E50;
