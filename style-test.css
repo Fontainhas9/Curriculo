@@ -200,6 +200,20 @@ h2 {
     background-color: #005bb5;
 }
 
+.home-button {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000; /* Mantém acima de outros elementos */
+}
+
+.home-button img {
+    width: 32px;  /* Ajusta o tamanho conforme precisares */
+    height: 32px;
+    cursor: pointer;
+}
+
+/* === SELECTOR DE LÍNGUAS === */
 .language-selector {
     position: absolute;
     top: 20px;
