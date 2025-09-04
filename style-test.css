@@ -208,11 +208,11 @@ h2 {
 }
 
 .home-button img {
-
+    width: 16px;
+    height: 16px;
     cursor: pointer;
-    border: 1px solid #ddd;   /* opcional, igual às flags */
-    border-radius: 3px;       /* opcional, igual às flags */
 }
+
 
 
 /* === SELECTOR DE LÍNGUAS === */
