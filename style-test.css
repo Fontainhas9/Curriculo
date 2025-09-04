@@ -204,14 +204,19 @@ h2 {
     position: fixed;
     top: 15px;
     left: 15px;
-    z-index: 1000; /* Mantém acima de outros elementos */
+    z-index: 1000;
 }
 
 .home-button img {
-    width: 16px;
-    height: 16px;
+    font-size: 20px;   /* mesmo tamanho das bandeiras */
+    color: #333;       /* podes mudar a cor */
     cursor: pointer;
+    border: 1px solid #ddd;   /* se quiseres igual às flags */
+    border-radius: 3px;
+    padding: 2px; /* dá equilíbrio no quadrado */
+    background: #fff; /* opcional */
 }
+
 
 
 
