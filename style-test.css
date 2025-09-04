@@ -208,10 +208,13 @@ h2 {
 }
 
 .home-button img {
-    width: 15px;  /* Ajusta o tamanho conforme precisares */
-    height: 15px;
+    width: 30px;   /* mesmo tamanho das flags */
+    height: 20px;
     cursor: pointer;
+    border: 1px solid #ddd;   /* opcional, igual às flags */
+    border-radius: 3px;       /* opcional, igual às flags */
 }
+
 
 /* === SELECTOR DE LÍNGUAS === */
 .language-selector {
