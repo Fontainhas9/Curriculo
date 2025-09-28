@@ -125,10 +125,10 @@ section {
     display: flex;
     flex-wrap: wrap;        /* permite quebra de linha entre as skills */
     justify-content: center;
-    gap: 0.4rem 0.6rem;     /* espaçamento entre colunas e linhas */
+    gap: 0.6rem 0.8rem;     /* espaçamento entre colunas e linhas */
     padding: 0;
     margin: 0 auto;
-    max-width: 95%;         /* respeita largura da tela */
+    max-width: 100%;         /* respeita largura da tela */
 }
 
 .skill {
@@ -137,9 +137,9 @@ section {
     text-align: center;
     background-color: #ecf0f1;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 0.2rem 0.6rem;
-    font-size: 0.95rem;
+    border-radius: 8px;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
     color: #2C3E50;
     min-width: fit-content;
 }
