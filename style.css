@@ -121,15 +121,15 @@ section {
 
 /* === COMPETÊNCIAS === */
 .skills {
-    margin-top: 1rem;
     display: flex;
-    flex-wrap: nowrap; /* mantém numa só linha */
-    justify-content: flex-start; /* alinha os itens à esquerda */
+    flex-wrap: nowrap; /* impede quebra de linha */
+    justify-content: flex-start;
     gap: 1rem;
-    overflow-x: auto; /* permite scroll horizontal se necessário */
-    padding: 0 1rem; /* opcional: espaço lateral */
-    scrollbar-width: thin; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
+    overflow-x: auto; /* ativa scroll se necessário */
+    padding: 0 1rem;
+    scrollbar-width: thin;        /* Firefox */
+    -ms-overflow-style: none;     /* IE 10+ */
+    -webkit-overflow-scrolling: touch; /* suaviza scroll no mobile */
 }
 
 .skills::-webkit-scrollbar {
@@ -142,7 +142,8 @@ section {
 }
 
 .skill {
-    white-space: nowrap; /* impede quebra dentro de cada span */
+    white-space: nowrap;   /* impede quebra de linha dentro do span */
+    flex-shrink: 0;        /* impede que encolham */
     background-color: #ecf0f1;
     border: 1px solid #ddd;
     border-radius: 15px;
@@ -150,7 +151,6 @@ section {
     font-size: 0.9rem;
     color: #2C3E50;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
-    flex-shrink: 0; /* impede que encolham para caber na linha */
 }
 
 
