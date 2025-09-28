@@ -132,17 +132,18 @@ section {
 }
 
 .skill {
-    white-space: nowrap;       /* impede quebra dentro da skill */
-    flex-shrink: 0;            /* impede que fique muito pequena */
+    white-space: nowrap;       
+    flex-shrink: 0;            
     text-align: center;
     background-color: #ecf0f1;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 0.4rem 0.8rem;
-    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0.3rem 0.7rem;        /* ajuste leve no padding para acompanhar */
+    font-size: 0.85rem;            /* <-- AQUI aumentamos o tamanho da letra */
     color: #2C3E50;
     min-width: fit-content;
 }
+
 
 
 /* === BLOCOS === */
