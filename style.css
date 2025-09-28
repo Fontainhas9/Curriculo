@@ -122,25 +122,26 @@ section {
 /* === COMPETÊNCIAS === */
 .skills {
     display: flex;
-    flex-wrap: nowrap;             /* tudo em uma única linha */
-    justify-content: space-between;
-    gap: 0.5rem;                   /* espaço entre skills */
-    padding: 0 1rem;
-    overflow: hidden;             /* impede scroll */
+    flex-wrap: nowrap;         /* mantém tudo numa linha */
+    justify-content: flex-start; /* mantém alinhado à esquerda */
+    gap: 0.25rem;              /* reduzido ainda mais o espaçamento entre skills */
+    padding: 0;                /* remove o padding lateral */
+    margin: 0;                 /* garante que não haja margem extra */
+    overflow: hidden;          /* impede scroll */
 }
 
 .skill {
-    white-space: nowrap;          /* impede quebra de texto */
-    flex: 1 1 auto;               /* permite ajuste da largura */
+    white-space: nowrap;       /* impede quebra de linha dentro */
+    flex: 1 1 auto;            /* permite que as skills encolham */
     text-align: center;
     background-color: #ecf0f1;
     border: 1px solid #ddd;
-    border-radius: 15px;
-    padding: 0.3rem 0.6rem;
-    font-size: 0.85rem;
+    border-radius: 10px;       /* reduzido o arredondamento */
+    padding: 0.2rem 0.4rem;    /* padding interno bem menor */
+    font-size: 0.75rem;        /* fonte mais pequena */
     color: #2C3E50;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
-    min-width: 0;                 /* evita overflow indesejado */
+    box-shadow: none;          /* remove sombra para economizar espaço visual */
+    min-width: 0;              /* garante que o conteúdo possa encolher */
 }
 
 
