@@ -92,7 +92,13 @@ section {
     color: #555;
     width: 75%;
     text-align: center;
+
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
+
 
 
 /* === LINKS SOCIAIS === */
