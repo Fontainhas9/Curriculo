@@ -90,11 +90,10 @@ section {
     margin: 1rem auto;
     font-size: 1rem;
     color: #555;
-    width: 90%;             /* mais responsivo */
+    width: 60%;
     text-align: center;
-    white-space: normal;    /* PERMITE quebra de linha */
-    overflow-wrap: break-word;  /* quebra palavras longas */
 }
+
 
 /* === LINKS SOCIAIS === */
 .social-links {
@@ -122,32 +121,22 @@ section {
 
 /* === COMPETÊNCIAS === */
 .skills {
+    margin-top: 1rem;
     display: flex;
-    flex-wrap: nowrap;              /* tudo numa linha */
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.3rem;                    /* pequeno espaço entre skills */
-    padding: 0;
-    margin: 0 auto;
-    overflow: hidden;               /* impede scroll horizontal */
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skill {
-    white-space: nowrap;            /* impede quebra dentro da skill */
-    flex: 1 1 0;                    /* permite encolher proporcionalmente */
-    min-width: 0;                  /* evita overflow */
-    text-align: center;
     background-color: #ecf0f1;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 0.2rem 0.5rem;         /* padding leve */
-    font-size: 0.85rem;             /* tamanho ideal (~13.6px) */
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 0.9rem;
     color: #2C3E50;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
 }
-
 
 /* === BLOCOS === */
 .job, .degree, .article {
