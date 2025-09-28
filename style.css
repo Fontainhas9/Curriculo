@@ -92,8 +92,8 @@ section {
     color: #555;
     width: 75%;
     text-align: center;
+    white-space: nowrap; /* <-- Adicionado */
 }
-
 
 /* === LINKS SOCIAIS === */
 .social-links {
