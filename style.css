@@ -123,9 +123,11 @@ section {
 .skills {
     margin-top: 1rem;
     display: flex;
-    white-space: nowrap;
+    flex-wrap: nowrap; /* <-- evita que itens passem para a linha de baixo */
     justify-content: center;
+    gap: 1rem; /* opcional: espaço entre os itens */
 }
+
 
 .skill {
     background-color: #ecf0f1;
