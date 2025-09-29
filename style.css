@@ -273,7 +273,7 @@ section {
 
 .language-selector a img {
     width: 30px;
-    height: 30px;
+    height: 20px;
     border: 1px solid #ddd;
     border-radius: 3px;
 }
@@ -281,7 +281,7 @@ section {
 /* Botão de tema no mesmo tamanho das bandeiras, totalmente transparente */
 .theme-toggle {
     width: 30px;
-    height: 20px;            /* igual às bandeiras */
+    height: 30px;            /* igual às bandeiras */
     background: transparent;
     border: none;
     display: flex;
