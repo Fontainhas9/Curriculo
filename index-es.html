@@ -10,21 +10,30 @@
     <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="André Fontainhas - Software Developer/Data Analyst">
-    <meta property="og:description" content="Sou fascinado por tratamento e visualização de dados com conhecimentos de Power BI e Python. Estou sempre em busca de novos desafios e oportunidades para crescer e contribuir no campo tecnológico. Atualmente trabalho como Software Developer no Centro de Computação Gráfica.    Sou fluente em inglês, tenho um bom nível de conversa em espanhol e sou iniciante em francês.">
+    <meta property="og:description" content="Me apasiona el tratamiento y visualización de datos con habilidades en Power BI y Python. Siempre busco nuevos desafíos y oportunidades para crecer y contribuir en el campo tecnológico. Actualmente trabajo como Desarrollador de Software y Analista de Datos en el Instituto CCG/ZGDV.">
     <meta property="og:image" content="https://Fontainhas9.github.io/images/thumbnail.jpg">
     <meta property="og:url" content="https://Fontainhas9.github.io/index-es.html">
     <meta property="og:type" content="website">
 </head>
 <body>
     <header>
-        <div class="language-selector">
-            <a href="index-es.html"><img src="images/flags/spain.png" alt="Español"></a>
-            <a href="index.html"><img src="images/flags/portugal.png" alt="Português"></a>
-            <a href="index-en.html"><img src="images/flags/uk.png" alt="English"></a>
+        <!-- Container no topo direito -->
+        <div class="top-right-controls">
+            <div class="language-selector">
+                <a href="index-es.html"><img src="images/flags/spain.png" alt="ES"></a>
+                <a href="index.html"><img src="images/flags/portugal.png" alt="PT"></a>
+                <a href="index-en.html"><img src="images/flags/uk.png" alt="EN"></a>
+            </div>
+
+            <!-- Botão de alternar tema -->
+            <button id="toggle-theme" class="theme-toggle">
+                🌙
+            </button>
         </div>
+        
         <div class="container">
             <img src="images/foto.jpeg" alt="Mi Foto" class="profile-photo">
-            <h1><span class="wave"></span> ¡Hola! Soy André Fontainhas,</h1>
+            <h1>¡Hola! Soy André Fontainhas,</h1>
             <h1 class="highlight">Desarrollador de Software y Analista de Datos</h1>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
@@ -44,10 +53,10 @@
                 Hablo inglés con fluidez, tengo un buen nivel de conversación en español y soy principiante en francés.
             </p>
             <div class="skills">
-                <span class="skill">Programming (Python, C++, Java, SQL)</span>
+                <span class="skill">Programming (Python, C++, Java, HTML, CSS)</span>
+                <span class="skill">Arduino IDE</span>
                 <span class="skill">Power BI (DAX, Power Query, ETL)</span>
                 <span class="skill">Data Analysis (Pandas, Matplotlib, Jupyter)</span>
-                <span class="skill">Arduino IDE</span>
             </div>
         </div>
     </header>    
@@ -134,11 +143,19 @@
                 </div>
             </div>
         </section>
-        
-        
-        
-        
+
     </main>
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 André Fontainhas. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="mailto:fontesandre98@hotmail.com"><i class="fas fa-envelope"></i> Correo</a>
+                <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Chamada ao ficheiro JS externo -->
     <script src="script.js"></script>
+
 </body>
 </html>
