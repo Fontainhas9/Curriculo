@@ -86,14 +86,12 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.description {
-    margin: 1rem auto;
-    font-size: 1rem;
-    color: #555;
-    width: 60%;
-    text-align: center;
-}
-
+.description { 
+    margin: 1rem auto; 
+    font-size: 1rem; 
+    color: #555; 
+    width: 75%; 
+    text-align: center; }
 
 /* === COMPETÊNCIAS === */
 .skills {
