@@ -268,7 +268,7 @@ section {
 /* Mantemos o estilo das bandeiras */
 .language-selector {
     display: flex;           /* garante que bandeiras fiquem lado a lado */
-    gap: 5px;                /* espaço entre bandeiras */
+    gap: 10px;                /* espaço entre bandeiras */
 }
 
 .language-selector a img {
@@ -297,7 +297,6 @@ section {
 .theme-toggle:hover {
     background: rgba(255, 255, 255, 0.1); 
 }
-
 
 /* === PDF & VÍDEO === */
 .pdf-container {
