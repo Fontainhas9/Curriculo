@@ -97,7 +97,7 @@ section {
 .skills {
     margin-top: 1rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;        /* mantém a quebra só quando necessário */
     justify-content: center;
 }
 
@@ -110,7 +110,9 @@ section {
     font-size: 0.9rem;
     color: #2C3E50;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;    /* evita quebra dentro do texto */
 }
+
 
 
 /* === LINKS SOCIAIS === */
