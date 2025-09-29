@@ -260,16 +260,18 @@ section {
     right: 20px;
     display: flex;           /* flex horizontal */
     align-items: center;     /* alinha verticalmente */
+    justify-content: flex-end; /* garante que fique à direita */
     gap: 5px;                /* espaço entre bandeiras e botão */
     z-index: 1000;
 }
 
 /* Mantemos o estilo das bandeiras */
-.language-selector a {
-    margin: 0 2px;           /* pequeno espaçamento interno */
+.language-selector {
+    display: flex;           /* garante que bandeiras fiquem lado a lado */
+    gap: 5px;                /* espaço entre bandeiras */
 }
 
-.language-selector img {
+.language-selector a img {
     width: 30px;
     height: 20px;
     border: 1px solid #ddd;
@@ -279,7 +281,7 @@ section {
 /* Botão de tema no mesmo tamanho das bandeiras, totalmente transparente */
 .theme-toggle {
     width: 30px;
-    height: 20px;           /* mesmo tamanho das bandeiras */
+    height: 20px;            /* igual às bandeiras */
     background: transparent;
     border: none;
     display: flex;
@@ -295,7 +297,6 @@ section {
 .theme-toggle:hover {
     background: rgba(255, 255, 255, 0.1); 
 }
-
 
 
 /* === PDF & VÍDEO === */
