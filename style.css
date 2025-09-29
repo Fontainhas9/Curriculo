@@ -280,8 +280,8 @@ section {
 
 /* Botão de tema no mesmo tamanho das bandeiras, totalmente transparente */
 .theme-toggle {
-    width: 30px;
-    height: 30px;            /* igual às bandeiras */
+    width: 35px;
+    height: 35px;
     background: transparent;
     border: none;
     display: flex;
@@ -296,6 +296,11 @@ section {
 
 .theme-toggle:hover {
     background: rgba(255, 255, 255, 0.1); 
+}
+
+/* No modo noturno, remover hover */
+body.dark .theme-toggle:hover {
+    background: transparent; /* sem destaque no modo escuro */
 }
 
 /* === PDF & VÍDEO === */
