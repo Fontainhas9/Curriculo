@@ -1,0 +1,31 @@
+Curriculo/
+├── images/
+│   ├── flags/
+│   │   ├── portugal.png
+│   │   ├── spain.png
+│   │   ├── uh.png
+│   ├──favicon.ico
+│   ├──favicon1.ico
+│   ├──favicon2.ico
+│   ├──foto.jpeg
+│   ├──home.png
+│   ├──lua.png
+│   ├──sol.png
+│   ├──sthumbnail.jpg
+├── Certificates/ (**Contains all the pdf os certificates**)
+├── certificados.html
+├── certificados-es.html
+├── certificados-en.html
+├── index.html
+├── index-es.html
+├── index-en.html
+├── projetos.html
+├── projetos-es.html
+├── projetos-en.html
+├── publicacoes.html
+├── publicacoes-es.html
+├── publicacoes-en.html
+├── script.js
+├── style.css
+├── style-test.css
+└── structure.txt

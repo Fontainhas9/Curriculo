@@ -1,62 +1,83 @@
-/* === BASE === */
+/* === BASE & RESET === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F4F6F8;
     color: #2C3E50;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* === HEADER === */
 header {
     background-color: #fff;
     padding: 2rem 0;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: #2C3E50;
-}
-
+/* === LAYOUT === */
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    border-bottom: 2px solid #3498DB;
-    padding-bottom: 0.5rem;
-    color: #2C3E50;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
 }
 
 main {
     padding: 2rem;
     background: white;
     margin: 1rem auto;
-    width: 80%;
+    max-width: 1200px;
+    width: 85%;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
 section {
     margin-bottom: 2rem;
     background: #fff;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
 }
 
-/* === ANIMAÇÃO === */
+/* === TYPOGRAPHY === */
+h1 {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    margin: 0.5rem 0;
+}
+
+h2 {
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #2C3E50;
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
+}
+
+.highlight {
+    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* === ANIMATION === */
 .wave {
     display: inline-block;
     animation: wave-animation 2.5s infinite;
+    transform-origin: 70% 70%;
 }
 
 @keyframes wave-animation {
@@ -70,52 +91,36 @@ section {
     100% { transform: rotate(0deg); }
 }
 
-/* === ELEMENTOS GERAIS === */
-.highlight {
-    background: linear-gradient(to right, #30cfd0, #330867);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
+/* === PROFILE === */
 .profile-photo {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
-    margin-top: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.description { 
-    margin: 1rem auto; 
-    font-size: 1rem; 
-    color: #555; 
-    width: 75%; 
-    text-align: center; }
-
-/* === COMPETÊNCIAS === */
-.skills {
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;        /* mantém a quebra só quando necessário */
-    justify-content: center;
+.description {
+    margin: 1rem auto;
+    font-size: 1rem;
+    color: #555;
+    max-width: 1200px;
+    text-align: center;
+    list-style: none;
 }
 
-.skill {
-    background-color: #ecf0f1;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    padding: 0.5rem 1rem;
-    margin: 0.5rem;
-    font-size: 0.9rem;
-    color: #2C3E50;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
-    white-space: nowrap;    /* evita quebra dentro do texto */
+/* Remove qualquer bullet que possa aparecer */
+.description ul,
+.description li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* === LINKS SOCIAIS === */
+/* === SOCIAL LINKS === */
 .social-links {
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 .social-links a {
@@ -130,29 +135,63 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .social-links a:hover {
     background: #3498DB;
+    transform: translateY(-2px);
 }
 
-/* === BLOCOS === */
+/* === SKILLS === */
+.skills {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skill {
+    background-color: #ecf0f1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    color: #2C3E50;
+    transition: all 0.2s ease;
+}
+
+.skill:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* === CARDS (JOB, DEGREE, ARTICLE) === */
 .job, .degree, .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 15% 75% 10%;
+    grid-template-columns: 140px 1fr auto;
+    gap: 1rem;
+    align-items: start;
+}
+
+@media (max-width: 768px) {
+    .job, .degree, .article {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
 }
 
 .job-dates, .degree-dates, .article-dates {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #888;
+    font-weight: 500;
 }
 
 .job-details, .degree-details, .article-details {
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     padding: 1rem;
 }
 
@@ -160,90 +199,133 @@ section {
     font-size: 1.2rem;
     font-weight: bold;
     color: #2C3E50;
+    margin-bottom: 0.25rem;
 }
 
 .job-company, .degree-company {
     font-weight: normal;
+    color: #3498DB;
 }
 
 .job-location, .degree-location {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #666;
-    margin-top: 0.5rem;
+    margin: 0.5rem 0;
 }
 
-.job-description, .degree-description {
-    list-style-type: disc;
-    margin: 0 0 0 20px;
+/* Estilos para listas dentro de job-description e degree-description - AGORA COMO PARÁGRAFOS */
+.job-description, .degree-description, .article-description {
+    margin: 0.75rem 0 0 0;
     padding: 0;
     text-align: justify;
 }
 
-.job-description li, .degree-description li {
-    margin-bottom: 0.5rem;
-    display: block;
-    width: 100%;
+.job-description p,
+.degree-description p {
+    margin-bottom: 0.75rem;
 }
 
-.article-description {
+/* Para a secção da Tese - mesmo estilo que Education */
+.Tese .article {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 140px 1fr auto;
+    gap: 1rem;
+    align-items: start;
+}
+
+@media (max-width: 768px) {
+    .Tese .article {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+}
+
+.Tese .article-dates {
+    font-size: 0.85rem;
+    color: #888;
+    font-weight: 500;
+}
+
+.Tese .article-details {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.Tese .article-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 0.25rem;
+}
+
+.Tese .job-location {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.Tese .degree-description p {
+    margin-bottom: 0.75rem;
     text-align: justify;
-    color: #555;
 }
 
-/* === CAIXAS E BOTÕES === */
+/* === BOX CONTAINER === */
 .box {
     background: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #e0e0e0;
     border-radius: 12px;
     padding: 1rem;
     margin-top: 1rem;
+    transition: all 0.3s ease;
 }
 
+/* === BUTTONS === */
 .button-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 20px;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
-/* Botões padrão (vários botões) */
 .button {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
-    width: 150px;
-    min-height: 50px;
-    padding: 10px;
-    text-align: center;
-    white-space: normal;
-    word-wrap: break-word;
+    justify-content: center;
+    gap: 0.5rem;
+    min-width: 130px;
+    padding: 0.6rem 1.2rem;
     border-radius: 6px;
-    font-size: 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
     background-color: #3498DB;
     color: white;
     text-decoration: none;
-    transition: background 0.3s;
-}
-
-
-
-/* Quando há apenas um botão dentro do container */
-.button-container:has(.button:nth-child(1):only-child) .button {
-    width: 150px;
-    height: 40px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
 }
 
 .button:hover {
     background-color: #2C3E50;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* === HOME BUTTON === */
 .home-button {
     position: fixed;
     top: 15px;
     left: 15px;
     z-index: 1000;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.home-button:hover {
+    opacity: 1;
 }
 
 .home-button img {
@@ -252,23 +334,20 @@ section {
     cursor: pointer;
 }
 
-
-/* Container que alinha bandeiras + botão horizontalmente */
+/* === TOP RIGHT CONTROLS === */
 .top-right-controls {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
-    display: flex;           /* flex horizontal */
-    align-items: center;     /* alinha verticalmente */
-    justify-content: flex-end; /* garante que fique à direita */
-    gap: 5px;                /* espaço entre bandeiras e botão */
+    display: flex;
+    align-items: center;
+    gap: 10px;
     z-index: 1000;
 }
 
-/* Mantemos o estilo das bandeiras */
 .language-selector {
-    display: flex;           /* garante que bandeiras fiquem lado a lado */
-    gap: 10px;                /* espaço entre bandeiras */
+    display: flex;
+    gap: 8px;
 }
 
 .language-selector a img {
@@ -276,277 +355,244 @@ section {
     height: 20px;
     border: 1px solid #ddd;
     border-radius: 3px;
+    transition: transform 0.2s ease;
 }
 
-/* Botão de tema no mesmo tamanho das bandeiras, totalmente transparente */
+.language-selector a img:hover {
+    transform: scale(1.05);
+}
+
 .theme-toggle {
     width: 35px;
     height: 35px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.05);
     border: none;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    font-size: 0.9rem;
-    color: inherit;
-    padding: 0;
-    line-height: 1;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
 }
 
 .theme-toggle:hover {
-    background: rgba(255, 255, 255, 0.1); 
+    background: rgba(0, 0, 0, 0.1);
+    transform: rotate(15deg);
 }
 
-/* No modo noturno, remover hover */
-body.dark .theme-toggle:hover {
-    background: transparent; /* sem destaque no modo escuro */
-}
-
-/* === PDF & VÍDEO === */
-.pdf-container {
-    width: 80%;
-    margin: 2rem auto;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    min-height: 1200px;
-    overflow: visible;
-}
-
-.video-container {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.video-container .button {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #E67E22;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    transition: background 0.3s ease;
-}
-
-.video-container .button:hover {
-    background-color: #CA6F1E;
-}
-
-/* === RESPONSIVO === */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    .description {
-        width: 90%;
-        font-size: 0.9rem;
-    }
-
-    .skills {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skill {
-        font-size: 0.8rem;
-        padding: 0.4rem 0.8rem;
-    }
-
-    main {
-        width: 95%;
-        padding: 1rem;
-    }
-
-    .job, .degree, .article {
-        grid-template-columns: 1fr;
-    }
-
-    .job-dates, .degree-dates, .article-dates {
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
-
-    .job-details, .degree-details, .article-details {
-        padding: 0.8rem;
-    }
-
-    .job-title, .degree-title, .article-title {
-        font-size: 1rem;
-    }
-
-    .button-container {
-        justify-content: center;
-    }
-
-    .button {
-        margin: 0.5rem 0;
-        padding: 0.4rem 0.8rem;
-    }
-
-    .pdf-container {
-        width: 90%;
-        margin: 1rem auto;
-    }
-}
-
-/* === RODAPÉ === */
+/* === FOOTER === */
 footer {
-    background-color: #2C3E50; /* escuro padrão */
+    background-color: #2C3E50;
     color: #ECF0F1;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 1.5rem;
     margin-top: 2rem;
-    font-size: 0.9rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 footer a {
     color: #ECF0F1;
     text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
     color: #3498DB;
 }
 
-.footer-links {
-    margin-top: 0.3rem;
+/* === PDF CONTAINER === */
+.pdf-container {
+    width: 100%;
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-/* === MODO ESCURO === */
+/* === DARK MODE === */
 body.dark {
-    background-color: #1E1E1E;
-    color: #ECF0F1;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
 }
 
 body.dark header {
-    background-color: #2C2C2C;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    background-color: #16213e;
 }
 
-body.dark header h1 {
-    color: #ECF0F1;
-}
-
-body.dark main {
-    background: #2C2C2C;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
-}
-
+body.dark main,
 body.dark section {
-    background: #2C2C2C;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+    background: #1e2a3a;
+    color: #e0e0e0;
 }
 
 body.dark h2 {
-    border-bottom: 2px solid #3498DB;
-    color: #ECF0F1;
+    border-bottom-color: #3498DB;
+    color: #e0e0e0;
 }
 
 body.dark .description {
     color: #ccc;
 }
 
-body.dark .skills {
-    justify-content: center;
-}
-
 body.dark .skill {
-    background-color: #333;
-    border: 1px solid #555;
-    color: #ECF0F1;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    background-color: #2c3e50;
+    border-color: #3498DB;
+    color: #e0e0e0;
 }
 
 body.dark .social-links a {
-    background: #444;
-    color: #ECF0F1;
-}
-
-body.dark .social-links a:hover {
     background: #3498DB;
 }
 
 body.dark .job-details,
 body.dark .degree-details,
-body.dark .article-details {
-    background: #2C2C2C;
-    color: #ECF0F1;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+body.dark .article-details,
+body.dark .Tese .article-details {
+    background: #1e2a3a;
 }
 
 body.dark .job-dates,
 body.dark .degree-dates,
-body.dark .article-dates {
+body.dark .article-dates,
+body.dark .Tese .article-dates {
     color: #aaa;
 }
 
 body.dark .job-title,
 body.dark .degree-title,
-body.dark .article-title {
+body.dark .article-title,
+body.dark .Tese .article-title {
     color: #fff;
 }
 
-body.dark .job-location,
-body.dark .degree-location {
-    color: #bbb;
-}
-
-body.dark .article-description {
-    color: #ddd;
-}
-
 body.dark .box {
-    background: #2C2C2C;
-    border: 1px solid #555;
+    background: #16213e;
+    border-color: #3498DB;
 }
 
 body.dark .button {
     background-color: #3498DB;
-    color: #fff;
 }
 
 body.dark .button:hover {
-    background-color: #1E90FF;
-}
-
-body.dark .video-container .button {
-    background-color: #CA6F1E;
-}
-
-body.dark .video-container .button:hover {
-    background-color: #E67E22;
-}
-
-body.dark .pdf-container {
-    border: 1px solid #555;
-    background: #2C2C2C;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #5dade2;
 }
 
 body.dark footer {
-    background-color: #121212; /* tom mais escuro para modo noturno */
-    color: #ccc;                /* texto mais claro */
-}
-
-body.dark footer a {
-    color: #ccc;
-}
-
-body.dark footer a:hover {
-    color: #3498DB;
+    background-color: #0f172a;
 }
 
 body.dark .highlight {
-    background: linear-gradient(to right, #7FDBFF, #B0A7FF); /* cores mais claras para contraste */
+    background: linear-gradient(135deg, #7FDBFF, #B0A7FF);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.dark .theme-toggle {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* === UTILITY CLASSES === */
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    
+    main {
+        width: 95%;
+        padding: 1rem;
+    }
+    
+    section {
+        padding: 1rem;
+    }
+    
+    .description {
+        width: 100%;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    
+    .skills {
+        gap: 0.4rem;
+    }
+    
+    .skill {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .button {
+        min-width: 110px;
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .top-right-controls {
+        top: 10px;
+        right: 10px;
+    }
+    
+    .home-button {
+        top: 10px;
+        left: 10px;
+    }
+    
+    .home-button img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .job, .degree, .article,
+    .Tese .article {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+}
+
+/* === PRINT STYLES === */
+@media print {
+    .top-right-controls,
+    .home-button,
+    .theme-toggle,
+    .button-container,
+    .social-links {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .box {
+        break-inside: avoid;
+    }
 }
