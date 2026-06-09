@@ -166,11 +166,11 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* === CARDS (JOB, DEGREE, ARTICLE) - CORRIGIDO: SEM TERCEIRA COLUNA === */
+/* === CARDS (JOB, DEGREE, ARTICLE) - COLUNA DA DATA MAIS LARGA === */
 .job, .degree, .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: minmax(85px, auto) 1fr;
     gap: 1rem;
     align-items: start;
 }
@@ -186,6 +186,7 @@ h2 {
     font-size: 0.85rem;
     color: #888;
     font-weight: 500;
+    line-height: 1.4;
 }
 
 .job-details, .degree-details, .article-details {
@@ -232,7 +233,7 @@ h2 {
 .Tese .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 90px 1fr;
+    grid-template-columns: minmax(85px, auto) 1fr;
     gap: 1rem;
     align-items: start;
 }
@@ -248,6 +249,7 @@ h2 {
     font-size: 0.85rem;
     color: #888;
     font-weight: 500;
+    line-height: 1.4;
 }
 
 .Tese .article-details {
