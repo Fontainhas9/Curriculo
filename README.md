@@ -1,68 +1,68 @@
-# 👨‍💻 Currículo de André Fontainhas
+# 👨‍💻 André Fontainhas' Resume
 
-Este repositório contém o código-fonte do meu currículo/portfólio profissional online, disponível em **[fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**.  
-O projeto apresenta a minha trajetória como **Programador de Software e Analista de Dados**, detalhando a minha experiência profissional, projetos, publicações e certificações.
+This repository contains the source code for my professional resume/portfolio website, available at **[fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**.  
+The project presents my journey as a **Software Developer and Data Analyst**, detailing my professional experience, projects, publications, and certifications.
 
-O website está estruturado como uma *Single Page Application (SPA)* minimalista, com suporte multilingue (Português, Inglês e Espanhol) e um tema escuro/claro que se adapta às preferências do utilizador.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5** — Estrutura semântica do website.
-- **CSS3** — Estilização, layout responsivo e modo escuro/claro.
-- **JavaScript** — Lógica para alternar o tema (light/dark) e melhorias de performance (lazy loading, smooth scroll).
-- **GitHub Pages** — Hospedagem do website estático.
+The website is structured as a minimalist *Single Page Application (SPA)*, with multilingual support (Portuguese, English, and Spanish) and a dark/light theme that adapts to user preferences.
 
 ---
 
-## 📂 Estrutura do Código
+## 🛠️ Technologies Used
 
-A organização detalhada dos ficheiros e pastas do projeto pode ser consultada no ficheiro [`structure.txt`](structure.txt).
-
----
-
-### ✨ Destaques do Código
-
-- **Modo Escuro/Claro:** A funcionalidade é implementada em `script.js` e guarda a preferência do utilizador no `localStorage`, garantindo persistência entre sessões.
-- **Suporte Multilingue:** Cada secção principal (projetos, publicações, certificados) tem a sua própria página HTML para cada idioma, mantendo a estrutura e o conteúdo organizados.
-- **Design Responsivo:** O `style.css` utiliza `clamp()` para tipografia fluida e um layout baseado em Flexbox/Grid, assegurando uma boa experiência em qualquer dispositivo.
+- **HTML5** — Semantic website structure.
+- **CSS3** — Styling, responsive layout, and dark/light mode.
+- **JavaScript** — Logic for toggling the theme (light/dark) and performance improvements (lazy loading, smooth scroll).
+- **GitHub Pages** — Static website hosting.
 
 ---
 
-## 📄 Conteúdo do Website
+## 📂 Code Structure
 
-### 👤 Perfil Profissional
+Detailed organization of the project files and folders can be found in the [`structure.txt`](structure.txt) file.
 
-O website apresenta um resumo do meu perfil:
+---
 
-- **Cargo Atual:** Desenvolvedor de Software e Analista de Dados no Instituto CCG/ZGDV.
-- **Especialização:** Desenvolvimento embarcado (C++, ESP32), análise de dados (Python, Power BI), investigação aplicada (publicações IEEE/Springer).
-- **Idiomas:** Português (nativo), Inglês (C1), Espanhol (intermediário).
+### ✨ Code Highlights
 
-### 💼 Experiência e Projetos
+- **Dark/Light Mode:** The feature is implemented in `script.js` and saves user preference to `localStorage`, ensuring persistence between sessions.
+- **Multilingual Support:** Each main section (projects, publications, certificates) has its own HTML page for each language, keeping the structure and content organized.
+- **Responsive Design:** `style.css` uses `clamp()` for fluid typography and a Flexbox/Grid layout, ensuring a good experience on any device.
 
-- **PACMOBINOV:** Implementação de algoritmos de deteção e prevenção de colisões em tempo real, com integração em aplicações móveis e sistemas embarcados (OBUs/RSUs).
-- **TEXP@CT (PPS7):** Desenvolvimento de um sistema de localização *indoor* para a indústria têxtil com firmware C++ em ESP32, digitalizações BLE e comunicação via REST APIs.
-- **MITI Demo:** Plataforma web *full-stack* (Flask + JavaScript/Leaflet) para monitorização de sensores em tempo real, com dashboards dinâmicos e suporte a ingestão de dados por MQTT, Kafka e API.
-- **Aliança para a Transição Energética:** Desenvolvimento de uma plataforma municipal para gestão inteligente de energia e promoção da neutralidade carbónica.
+---
 
-### 📚 Publicações Científicas
+## 📄 Website Content
+
+### 👤 Professional Profile
+
+The website presents a summary of my profile:
+
+- **Current Role:** Software Developer and Data Analyst at CCG/ZGDV Institute.
+- **Specialization:** Embedded development (C++, ESP32), data analysis (Python, Power BI), applied research (IEEE/Springer publications).
+- **Languages:** Portuguese (native), English (C1), Spanish (intermediate).
+
+### 💼 Experience and Projects
+
+- **PACMOBINOV:** Implementation of real-time collision detection and prevention algorithms, integrated with mobile applications and embedded systems (OBUs/RSUs).
+- **TEXP@CT (PPS7):** Development of an indoor localization system for the textile industry with C++ firmware on ESP32, BLE scans, and REST API communication.
+- **MITI Demo:** Full-stack web platform (Flask + JavaScript/Leaflet) for real-time sensor monitoring, with dynamic dashboards and support for data ingestion via MQTT, Kafka, and API.
+- **Alliance for Energy Transition:** Development of a municipal platform for smart energy management and promotion of carbon neutrality.
+
+### 📚 Scientific Publications
 
 1. **"Needs and Requirements Assessment of Physical Product Traceability within the Portuguese Textile and Clothing Industry"** — CENTERIS 2026 (Elsevier).
 2. **"Centralized Kalman Filters to Enhance Localization Accuracy Within Vehicular Networks Context"** — Innovations in Mechatronics Engineering IV 2025 (Springer).
 
-### 🎓 Formação e Certificados
+### 🎓 Education and Certificates
 
-- **Mestrado Integrado em Engenharia e Gestão de Sistemas de Informação** — Universidade do Minho (2016-2022).
-- **Certificados recentes:** "IA para a Gestão", "IA Segura – IA Act" (TecMinho), "Gestão da Segurança da Informação" (CNCS), "Power BI 2025" (Hashtag Treinamentos), entre outros.
+- **Integrated Master's in Information Systems Engineering and Management** — University of Minho (2016-2022).
+- **Recent certificates:** "AI for Management", "Secure AI – AI Act" (TecMinho), "Information Security Management" (CNCS), "Power BI 2025" (Hashtag Treinamentos), among others.
 
 ---
 
-## 🚀 Como Usar
+## 🚀 How to Use
 
-Para visualizar o currículo online, basta aceder ao seguinte URL:
+To view the online resume, simply go to the following URL:
 
 👉 **[https://fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**  
 
-Não é necessário instalar nada – o website está disponível publicamente e funciona em qualquer navegador moderno (computador, tablet ou smartphone). A navegação entre as secções (Projetos, Publicações, Certificados) e a mudança de idioma (PT/EN/ES) são feitas diretamente no próprio site.
+No installation is needed – the website is publicly available and works on any modern browser (computer, tablet, or smartphone). Navigation between sections (Projects, Publications, Certificates) and language switching (PT/EN/ES) are done directly on the site.
