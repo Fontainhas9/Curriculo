@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 👨‍💻 Currículo de André Fontainhas
 
 Este repositório contém o código-fonte do meu currículo/portfólio profissional online, disponível em **[fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**.  
@@ -17,32 +16,11 @@ O website está estruturado como uma *Single Page Application (SPA)* minimalista
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Código
 
-A organização dos ficheiros reflete a natureza multilingue e modular do projeto:
-Curriculo/
-├── index.html # Página principal (Português)
-├── index-en.html # Página principal (Inglês)
-├── index-es.html # Página principal (Espanhol)
-├── projetos.html # Página de projetos (Português)
-├── projetos-en.html # Página de projetos (Inglês)
-├── projetos-es.html # Página de projetos (Espanhol)
-├── publicacoes.html # Página de publicações (Português)
-├── publicacoes-en.html # Página de publicações (Inglês)
-├── publicacoes-es.html # Página de publicações (Espanhol)
-├── certificados.html # Página de certificados (Português)
-├── certificados-en.html # Página de certificados (Inglês)
-├── certificados-es.html # Página de certificados (Espanhol)
-├── style.css # Estilos globais e responsividade
-├── style-test.css # Ficheiro de estilos de teste
-├── script.js # Funcionalidades JavaScript
-├── Certificates/ # Diretório com os diplomas (PDFs/imagens)
-├── images/ # Imagens do website (foto de perfil, etc.)
-├── trash/ # Código antigo/backups
-├── Tese-CalculadoraPegadaDeCarbono-main.zip # Anexo da tese de mestrado
-├── structure.txt # Estrutura textual do projeto (para referência)
-└── desktop.ini # Ficheiro de configuração do Windows (ignorar)
+A organização detalhada dos ficheiros e pastas do projeto pode ser consultada no ficheiro [`structure.txt`](structure.txt).
 
+---
 
 ### ✨ Destaques do Código
 
@@ -88,6 +66,3 @@ Para visualizar o currículo online, basta aceder ao seguinte URL:
 👉 **[https://fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**  
 
 Não é necessário instalar nada – o website está disponível publicamente e funciona em qualquer navegador moderno (computador, tablet ou smartphone). A navegação entre as secções (Projetos, Publicações, Certificados) e a mudança de idioma (PT/EN/ES) são feitas diretamente no próprio site.
-=======
-
->>>>>>> 36afb1bfb32e688252851e7155757b100c578580
