@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 👨‍💻 Currículo de André Fontainhas
 
 Este repositório contém o código-fonte do meu currículo/portfólio profissional online, disponível em **[fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**.  
@@ -87,3 +88,6 @@ Para visualizar o currículo online, basta aceder ao seguinte URL:
 👉 **[https://fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**  
 
 Não é necessário instalar nada – o website está disponível publicamente e funciona em qualquer navegador moderno (computador, tablet ou smartphone). A navegação entre as secções (Projetos, Publicações, Certificados) e a mudança de idioma (PT/EN/ES) são feitas diretamente no próprio site.
+=======
+
+>>>>>>> 36afb1bfb32e688252851e7155757b100c578580
