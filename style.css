@@ -27,7 +27,7 @@ header {
 /* === LAYOUT === */
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 950px;
     margin: 0 auto;
     position: relative;
 }
@@ -36,8 +36,8 @@ main {
     padding: 2rem;
     background: white;
     margin: 1rem auto;
-    max-width: 1200px;
-    width: 85%;
+    max-width: 950px;
+    width: 90%;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     transition: background-color 0.3s ease;
@@ -105,12 +105,11 @@ h2 {
     margin: 1rem auto;
     font-size: 1rem;
     color: #555;
-    max-width: 1200px;
+    max-width: 850px;
     text-align: center;
     list-style: none;
 }
 
-/* Remove qualquer bullet que possa aparecer */
 .description ul,
 .description li {
     list-style: none;
@@ -167,11 +166,11 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* === CARDS (JOB, DEGREE, ARTICLE) === */
+/* === CARDS (JOB, DEGREE, ARTICLE) - CORRIGIDO: SEM TERCEIRA COLUNA === */
 .job, .degree, .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 140px 1fr auto;
+    grid-template-columns: 140px 1fr;
     gap: 1rem;
     align-items: start;
 }
@@ -195,6 +194,11 @@ h2 {
     padding: 1rem;
 }
 
+/* Garantir que o botão dentro de .article-details fique centralizado */
+.article-details .button-container {
+    margin-top: 1.5rem;
+}
+
 .job-title, .degree-title, .article-title {
     font-size: 1.2rem;
     font-weight: bold;
@@ -213,7 +217,6 @@ h2 {
     margin: 0.5rem 0;
 }
 
-/* Estilos para listas dentro de job-description e degree-description - AGORA COMO PARÁGRAFOS */
 .job-description, .degree-description, .article-description {
     margin: 0.75rem 0 0 0;
     padding: 0;
@@ -225,11 +228,11 @@ h2 {
     margin-bottom: 0.75rem;
 }
 
-/* Para a secção da Tese - mesmo estilo que Education */
+/* Tese */
 .Tese .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 140px 1fr auto;
+    grid-template-columns: 140px 1fr;
     gap: 1rem;
     align-items: start;
 }
@@ -391,7 +394,7 @@ footer {
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
