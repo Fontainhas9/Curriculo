@@ -71,12 +71,12 @@ The website presents a summary of my profile:
 
 To view the online resume, simply go to the following URL:
 
-👉 **[https://fontainhas9.github.io/Curriculo/](https://fontainhas9.github.io/Curriculo/)**  
+👉 <a href="https://fontainhas9.github.io/Curriculo/" target="_blank">https://fontainhas9.github.io/Curriculo/</a>
 
 No installation is needed – the website is publicly available and works on any modern browser (computer, tablet, or smartphone). Use the language flags in the top‑right corner to switch between Portuguese, English, and Spanish. The theme toggle (🌙/☀️) switches between dark and light mode, and your preference is saved for future visits.
 
 ## 📬 Contact
 
-- **Email:** [fontesandre98@hotmail.com](mailto:fontesandre98@hotmail.com)
-- **LinkedIn:** [André Fontainhas](https://www.linkedin.com/in/andrefontainhas/)
-- **GitHub:** [Fontainhas9](https://github.com/Fontainhas9)
+- **Email:** <a href="mailto:fontesandre98@hotmail.com" target="_blank">fontesandre98@hotmail.com</a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank">André Fontainhas</a>
+- **GitHub:** <a href="https://github.com/Fontainhas9" target="_blank">Fontainhas9</a>
