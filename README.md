@@ -43,19 +43,16 @@ The website presents a summary of my profile:
 ### 💼 Experience and Projects
 
 - **PACMOBINOV:** Implementation of real-time collision detection and prevention algorithms, integrated with mobile applications and embedded systems (OBUs/RSUs).
+- **Alliance for Energy Transition:** Development of a municipal platform for smart energy management and promotion of carbon neutrality.
 - **TEXP@CT (PPS7):** Development of an indoor localization system for the textile industry with C++ firmware on ESP32, BLE scans, and REST API communication.
 - **MITI Demo:** Full-stack web platform (Flask + JavaScript/Leaflet) for real-time sensor monitoring, with dynamic dashboards and support for data ingestion via MQTT, Kafka, and API.
-- **Alliance for Energy Transition:** Development of a municipal platform for smart energy management and promotion of carbon neutrality.
+
 
 ### 📚 Scientific Publications
 
 1. **"Needs and Requirements Assessment of Physical Product Traceability within the Portuguese Textile and Clothing Industry"** — CENTERIS 2026 (Elsevier).
 2. **"Centralized Kalman Filters to Enhance Localization Accuracy Within Vehicular Networks Context"** — Innovations in Mechatronics Engineering IV 2025 (Springer).
-
-### 🎓 Education and Certificates
-
-- **Integrated Master's in Information Systems Engineering and Management** — University of Minho (2016-2022).
-- **Recent certificates:** "AI for Management", "Secure AI – AI Act" (TecMinho), "Information Security Management" (CNCS), "Power BI 2025" (Hashtag Treinamentos), among others.
+3. **"Leveraging V2P communications to improve the VRU’s safety"** — IWCMC 2024 (IEEE).
 
 ---
 
