@@ -170,7 +170,7 @@ h2 {
 .job, .degree, .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 70px 1fr;
     gap: 1rem;
     align-items: start;
 }
@@ -232,7 +232,7 @@ h2 {
 .Tese .article {
     margin-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 90px 1fr;
     gap: 1rem;
     align-items: start;
 }
