@@ -17,7 +17,7 @@ const headerPT = `
             <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Cargo Atual:</strong> Programador de Software e Analista de Dados no Instituto CCG/ZGDV, onde desenvolvo soluções IoT, sistemas de localização em tempo real (RTLS) e algoritmos de prevenção de colisões (Python) para aplicações em mobilidade inteligente e indústria têxtil.
+            <strong>Cargo Atual:</strong> Programador de Software na Holoss, onde estou a desenvolver uma plataforma para gestão de dados internos e externos, incluindo datasets de projetos, integração de fontes de dados e dashboards para monitorização e análise.
         </p>
         <p class="description">
             <strong>Especialização Técnica:</strong> Desenvolvimento de software embarcado (C++, ESP32) para ambientes industriais, combinado com análise de dados (Python, Power BI) para transformar dados de sensores em insights estratégicos. Experiência comprovada no desenvolvimento de algoritmos de deteção de colisões, com publicações em conferências internacionais (IEEE, Springer) nas áreas de V2X e sistemas de localização.
@@ -56,7 +56,7 @@ const headerEN = `
             <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Current Position:</strong> Software Programmer & Data Analyst at the CCG/ZGDV Institute, where I develop IoT solutions, real-time location systems (RTLS), and collision prevention algorithms (Python) for smart mobility and textile industry applications.
+            <strong>Current Position:</strong> Software Developer at Holoss, where I am developing a platform for managing internal and external data, including project datasets, data source integration, and dashboards for monitoring and analysis.
         </p>
         <p class="description">
             <strong>Technical Expertise:</strong> Embedded software development (C++, ESP32) for industrial environments, combined with data analytics (Python, Power BI) to transform sensor data into strategic insights. Proven experience in developing collision detection algorithms, with publications in international conferences (IEEE, Springer) in V2X and localization systems.
@@ -95,7 +95,7 @@ const headerES = `
             <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Puesto Actual:</strong> Programador de Software y Analista de Datos en el Instituto CCG/ZGDV, donde desarrollo soluciones IoT, sistemas de localización en tiempo real (RTLS) y algoritmos de prevención de colisiones (Python) para aplicaciones en movilidad inteligente e industria textil.
+            <strong>Puesto Actual:</strong> Programador de Software en Holoss, donde estoy desarrollando una plataforma para la gestión de datos internos y externos, incluyendo datasets de proyectos, integración de fuentes de datos y paneles para monitorización y análisis.
         </p>
         <p class="description">
             <strong>Especialización Técnica:</strong> Desarrollo de software embebido (C++, ESP32) para entornos industriales, combinado con análisis de datos (Python, Power BI) para transformar datos de sensores en insights estratégicos. Experiencia comprobada en el desarrollo de algoritmos de detección de colisiones, con publicaciones en conferencias internacionales (IEEE, Springer) en las áreas de V2X y sistemas de localización.
