@@ -17,24 +17,24 @@ const headerPT = `
             <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Cargo Atual:</strong> Programador de Software na Holoss, onde estou a desenvolver uma plataforma para gestão de dados internos e externos, incluindo datasets de projetos, integração de fontes de dados e dashboards para monitorização e análise.
+            <strong>Cargo Atual:</strong> Programador de Software na Holoss, onde desenvolvo uma plataforma para gestão de dados internos e externos, integrando datasets de projetos e fontes heterogéneas, com foco em eficiência, escalabilidade e apoio à decisão.
         </p>
         <p class="description">
-            <strong>Especialização Técnica:</strong> Desenvolvimento de software embarcado (C++, ESP32) para ambientes industriais, combinado com análise de dados (Python, Power BI) para transformar dados de sensores em insights estratégicos. Experiência comprovada no desenvolvimento de algoritmos de deteção de colisões, com publicações em conferências internacionais (IEEE, Springer) nas áreas de V2X e sistemas de localização.
+            <strong>Especialização Técnica:</strong> Desenvolvimento de soluções full‑stack (Python, Flask, JavaScript) e integração de sistemas, combinado com análise de dados (Power BI, Pandas) para transformar grandes volumes de dados em insights estratégicos. Experiência comprovada em arquitetura de dados, modelação e visualização, com publicações em conferências internacionais (IEEE, Springer) nas áreas de V2X e sistemas de localização.
         </p>
         <p class="description">
-            <strong>Perfil Profissional:</strong> Engenheiro de Sistemas de Informação com perfil híbrido que abrange desde o desenvolvimento de firmware de baixo nível até à análise de dados de alto nível. Motivado por projetos complexos que exigem pensamento crítico, integração de sistemas e contribuições tangíveis para a inovação tecnológica em mobilidade conectada, eficiência energética e sustentabilidade.
+            <strong>Perfil Profissional:</strong> Engenheiro de Sistemas de Informação com perfil híbrido que abrange desde o desenvolvimento de backend e integração de APIs até à análise e visualização de dados. Motivado por projetos complexos que exigem pensamento crítico, gestão de dados e contribuições tangíveis para a inovação tecnológica em mobilidade, eficiência energética e sustentabilidade.
         </p>
         <p class="description">
             <strong>Idiomas:</strong> Português (Nativo), Inglês (Fluente – C1), Espanhol (Intermédio – B2).
         </p>
         <div class="skills">
-            <span class="skill">Python (Pandas, Matplotlib, Flask)</span>
-            <span class="skill">C++ / Sistemas Embarcados (ESP32, Arduino, BLE)</span>
-            <span class="skill">Power BI (DAX, Power Query, ETL)</span>
-            <span class="skill">Análise e Visualização de Dados (Pandas, Matplotlib, Jupyter)</span>
-            <span class="skill">Desenvolvimento Web (Flask, JavaScript, Leaflet, HTML5, CSS3, REST APIs)</span>
-        </div>
+        <span class="skill">Python (Flask, Pandas, ETL, Integração)</span>
+        <span class="skill">Desenvolvimento Full‑Stack (Flask, JavaScript, HTML/CSS)</span>
+        <span class="skill">Visualização de Dados (Matplotlib, Jupyter, Looker)</span>
+        <span class="skill">C++ / Sistemas Embarcados (ESP32, Arduino, BLE)</span>
+        <span class="skill">Docker / Microsserviços / APIs REST</span>
+    </div>
     </div>
 </header>
 `;
@@ -56,24 +56,24 @@ const headerEN = `
             <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Current Position:</strong> Software Developer at Holoss, where I am developing a platform for managing internal and external data, including project datasets, data source integration, and dashboards for monitoring and analysis.
+            <strong>Current Position:</strong> Software Developer at Holoss, where I am building a platform for internal and external data management, integrating project datasets and heterogeneous sources, focusing on efficiency, scalability, and decision support.
         </p>
         <p class="description">
-            <strong>Technical Expertise:</strong> Embedded software development (C++, ESP32) for industrial environments, combined with data analytics (Python, Power BI) to transform sensor data into strategic insights. Proven experience in developing collision detection algorithms, with publications in international conferences (IEEE, Springer) in V2X and localization systems.
+            <strong>Technical Expertise:</strong> Full‑stack development (Python, Flask, JavaScript) and system integration, combined with data analytics (Power BI, Pandas) to turn large volumes of data into strategic insights. Proven experience in data architecture, modeling, and visualization, with publications in international conferences (IEEE, Springer) in V2X and localization systems.
         </p>
         <p class="description">
-            <strong>Professional Profile:</strong> Information Systems Engineer with a hybrid profile spanning low-level firmware development and high-level data analytics. Motivated by complex projects requiring critical thinking, system integration, and tangible contributions to technological innovation in connected mobility, energy efficiency, and sustainability.
+            <strong>Professional Profile:</strong> Information Systems Engineer with a hybrid profile spanning backend development, API integration, and data analysis/visualization. Motivated by complex projects that demand critical thinking, data governance, and tangible contributions to technological innovation in mobility, energy efficiency, and sustainability.
         </p>
         <p class="description">
             <strong>Languages:</strong> Portuguese (Native), English (Fluent – C1), Spanish (Intermediate – B2).
         </p>
         <div class="skills">
-            <span class="skill">Python (Pandas, Matplotlib, Flask)</span>
-            <span class="skill">C++ / Embedded Systems (ESP32, Arduino, BLE)</span>
-            <span class="skill">Power BI (DAX, Power Query, ETL)</span>
-            <span class="skill">Data Analysis & Visualization (Pandas, Matplotlib, Jupyter)</span>
-            <span class="skill">Web Development (Flask, JavaScript, Leaflet, HTML5, CSS3, REST APIs)</span>
-        </div>
+        <span class="skill">Python (Flask, Pandas, ETL, Integration)</span>
+        <span class="skill">Full‑Stack Development (Flask, JavaScript, HTML/CSS)</span>
+        <span class="skill">Data Visualization (Matplotlib, Jupyter, Looker)</span>
+        <span class="skill">C++ / Embedded Systems (ESP32, Arduino, BLE)</span>
+        <span class="skill">Docker / Microservices / REST APIs</span>
+    </div>
     </div>
 </header>
 `;
@@ -95,24 +95,24 @@ const headerES = `
             <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Puesto Actual:</strong> Programador de Software en Holoss, donde estoy desarrollando una plataforma para la gestión de datos internos y externos, incluyendo datasets de proyectos, integración de fuentes de datos y paneles para monitorización y análisis.
+            <strong>Puesto Actual:</strong> Desarrollador de Software en Holoss, donde desarrollo una plataforma para la gestión de datos internos y externos, integrando datasets de proyectos y fuentes heterogéneas, con enfoque en eficiencia, escalabilidad y apoyo a la decisión.
         </p>
         <p class="description">
-            <strong>Especialización Técnica:</strong> Desarrollo de software embebido (C++, ESP32) para entornos industriales, combinado con análisis de datos (Python, Power BI) para transformar datos de sensores en insights estratégicos. Experiencia comprobada en el desarrollo de algoritmos de detección de colisiones, con publicaciones en conferencias internacionales (IEEE, Springer) en las áreas de V2X y sistemas de localización.
+            <strong>Especialización Técnica:</strong> Desarrollo de soluciones full‑stack (Python, Flask, JavaScript) e integración de sistemas, combinado con análisis de datos (Power BI, Pandas) para transformar grandes volúmenes de datos en insights estratégicos. Experiencia comprobada en arquitectura de datos, modelado y visualización, con publicaciones en conferencias internacionales (IEEE, Springer) en las áreas de V2X y sistemas de localización.
         </p>
         <p class="description">
-            <strong>Perfil Profesional:</strong> Ingeniero de Sistemas de Información con perfil híbrido que abarca desde el desarrollo de firmware de bajo nivel hasta el análisis de datos de alto nivel. Motivado por proyectos complejos que requieren pensamiento crítico, integración de sistemas y contribuciones tangibles a la innovación tecnológica en movilidad conectada, eficiencia energética y sostenibilidad.
+            <strong>Perfil Profesional:</strong> Ingeniero de Sistemas de Información con perfil híbrido que abarca desde el desarrollo de backend e integración de APIs hasta el análisis y visualización de datos. Motivado por proyectos complejos que exigen pensamiento crítico, gobernanza de datos y contribuciones tangibles a la innovación tecnológica en movilidad, eficiencia energética y sostenibilidad.
         </p>
         <p class="description">
             <strong>Idiomas:</strong> Portugués (Nativo), Inglés (Fluido – C1), Español (Intermedio – B2).
         </p>
         <div class="skills">
-            <span class="skill">Python (Pandas, Matplotlib, Flask)</span>
-            <span class="skill">C++ / Sistemas Embebidos (ESP32, Arduino, BLE)</span>
-            <span class="skill">Power BI (DAX, Power Query, ETL)</span>
-            <span class="skill">Análisis y Visualización de Datos (Pandas, Matplotlib, Jupyter)</span>
-            <span class="skill">Desarrollo Web (Flask, JavaScript, Leaflet, HTML5, CSS3, REST APIs)</span>
-        </div>
+        <span class="skill">Python (Flask, Pandas, ETL, Integración)</span>
+        <span class="skill">Desarrollo Full‑Stack (Flask, JavaScript, HTML/CSS)</span>
+        <span class="skill">Visualización de Datos (Matplotlib, Jupyter, Looker)</span>
+        <span class="skill">C++ / Sistemas Embebidos (ESP32, Arduino, BLE)</span>
+        <span class="skill">Docker / Microservicios / APIs REST</span>
+    </div>
     </div>
 </header>
 `;
