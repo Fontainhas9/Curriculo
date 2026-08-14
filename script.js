@@ -1,20 +1,19 @@
-// script.js - Header e Footer dinâmicos por idioma
+// script.js - Header e Footer dinâmicos por idioma (sem botão de tema)
 
 // Conteúdo do HEADER em Português
 const headerPT = `
 <header>
     <div class="top-right-controls">
         <div class="language-selector" id="language-selector"></div>
-        <button id="toggle-theme" class="theme-toggle" aria-label="Alternar tema escuro/claro">🌙</button>
     </div>
     <div class="container">
         <img src="images/foto.jpeg" alt="Minha Foto" class="profile-photo">
         <h1><span class="wave"></span> Olá, sou o André Fontainhas,</h1>
         <h1 class="highlight">um Programador de Software e Analista de Dados</h1>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-linkedin"></i></a>
             <a href="mailto:fontesandre98@hotmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Fontainhas9" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
             <strong>Cargo Atual:</strong> Programador de Software na Holoss, onde desenvolvo uma plataforma para gestão de dados internos e externos, integrando datasets de projetos e fontes heterogéneas, com foco em eficiência, escalabilidade e apoio à decisão.
@@ -29,12 +28,12 @@ const headerPT = `
             <strong>Idiomas:</strong> Português (Nativo), Inglês (Fluente – C1), Espanhol (Intermédio – B2).
         </p>
         <div class="skills">
-        <span class="skill">Python (Flask, Pandas, ETL, Integração)</span>
-        <span class="skill">Desenvolvimento Full‑Stack (Flask, JavaScript, HTML/CSS)</span>
-        <span class="skill">Visualização de Dados (Matplotlib, Jupyter, Looker)</span>
-        <span class="skill">C++ / Sistemas Embarcados (ESP32, Arduino, BLE)</span>
-        <span class="skill">Docker / Microsserviços / APIs REST</span>
-    </div>
+            <span class="skill">Python (Flask, Pandas, ETL, Integração)</span>
+            <span class="skill">Desenvolvimento Full‑Stack (Flask, JavaScript, HTML/CSS)</span>
+            <span class="skill">Visualização de Dados (Matplotlib, Jupyter, Looker)</span>
+            <span class="skill">C++ / Sistemas Embarcados (ESP32, Arduino, BLE)</span>
+            <span class="skill">Docker / Microsserviços / APIs REST</span>
+        </div>
     </div>
 </header>
 `;
@@ -44,16 +43,15 @@ const headerEN = `
 <header>
     <div class="top-right-controls">
         <div class="language-selector" id="language-selector"></div>
-        <button id="toggle-theme" class="theme-toggle" aria-label="Toggle dark/light theme">🌙</button>
     </div>
     <div class="container">
         <img src="images/foto.jpeg" alt="My Photo" class="profile-photo">
         <h1><span class="wave"></span> Hi there, I'm André Fontainhas,</h1>
         <h1 class="highlight">a Software Developer and Data Analyst</h1>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-linkedin"></i></a>
             <a href="mailto:fontesandre98@hotmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Fontainhas9" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
             <strong>Current Position:</strong> Software Developer at Holoss, where I am building a platform for internal and external data management, integrating project datasets and heterogeneous sources, focusing on efficiency, scalability, and decision support.
@@ -68,12 +66,12 @@ const headerEN = `
             <strong>Languages:</strong> Portuguese (Native), English (Fluent – C1), Spanish (Intermediate – B2).
         </p>
         <div class="skills">
-        <span class="skill">Python (Flask, Pandas, ETL, Integration)</span>
-        <span class="skill">Full‑Stack Development (Flask, JavaScript, HTML/CSS)</span>
-        <span class="skill">Data Visualization (Matplotlib, Jupyter, Looker)</span>
-        <span class="skill">C++ / Embedded Systems (ESP32, Arduino, BLE)</span>
-        <span class="skill">Docker / Microservices / REST APIs</span>
-    </div>
+            <span class="skill">Python (Flask, Pandas, ETL, Integration)</span>
+            <span class="skill">Full‑Stack Development (Flask, JavaScript, HTML/CSS)</span>
+            <span class="skill">Data Visualization (Matplotlib, Jupyter, Looker)</span>
+            <span class="skill">C++ / Embedded Systems (ESP32, Arduino, BLE)</span>
+            <span class="skill">Docker / Microservices / REST APIs</span>
+        </div>
     </div>
 </header>
 `;
@@ -83,16 +81,15 @@ const headerES = `
 <header>
     <div class="top-right-controls">
         <div class="language-selector" id="language-selector"></div>
-        <button id="toggle-theme" class="theme-toggle" aria-label="Alternar tema oscuro/claro">🌙</button>
     </div>
     <div class="container">
         <img src="images/foto.jpeg" alt="Mi Foto" class="profile-photo">
         <h1><span class="wave"></span> ¡Hola! Soy André Fontainhas,</h1>
         <h1 class="highlight">Desarrollador de Software y Analista de Datos</h1>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-linkedin"></i></a>
             <a href="mailto:fontesandre98@hotmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/Fontainhas9" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Fontainhas9" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
             <strong>Puesto Actual:</strong> Desarrollador de Software en Holoss, donde desarrollo una plataforma para la gestión de datos internos y externos, integrando datasets de proyectos y fuentes heterogéneas, con enfoque en eficiencia, escalabilidad y apoyo a la decisión.
@@ -107,12 +104,12 @@ const headerES = `
             <strong>Idiomas:</strong> Portugués (Nativo), Inglés (Fluido – C1), Español (Intermedio – B2).
         </p>
         <div class="skills">
-        <span class="skill">Python (Flask, Pandas, ETL, Integración)</span>
-        <span class="skill">Desarrollo Full‑Stack (Flask, JavaScript, HTML/CSS)</span>
-        <span class="skill">Visualización de Datos (Matplotlib, Jupyter, Looker)</span>
-        <span class="skill">C++ / Sistemas Embebidos (ESP32, Arduino, BLE)</span>
-        <span class="skill">Docker / Microservicios / APIs REST</span>
-    </div>
+            <span class="skill">Python (Flask, Pandas, ETL, Integración)</span>
+            <span class="skill">Desarrollo Full‑Stack (Flask, JavaScript, HTML/CSS)</span>
+            <span class="skill">Visualización de Datos (Matplotlib, Jupyter, Looker)</span>
+            <span class="skill">C++ / Sistemas Embebidos (ESP32, Arduino, BLE)</span>
+            <span class="skill">Docker / Microservicios / APIs REST</span>
+        </div>
     </div>
 </header>
 `;
@@ -124,7 +121,7 @@ const footerPT = `
         <p>© 2025 André Fontainhas. Todos os direitos reservados.</p>
         <div class="footer-links">
             <a href="mailto:fontesandre98@hotmail.com"><i class="fas fa-envelope"></i> Email</a>
-            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
     </div>
 </footer>
@@ -137,7 +134,7 @@ const footerEN = `
         <p>© 2025 André Fontainhas. All rights reserved.</p>
         <div class="footer-links">
             <a href="mailto:fontesandre98@hotmail.com"><i class="fas fa-envelope"></i> Email</a>
-            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
     </div>
 </footer>
@@ -150,7 +147,7 @@ const footerES = `
         <p>© 2025 André Fontainhas. Todos los derechos reservados.</p>
         <div class="footer-links">
             <a href="mailto:fontesandre98@hotmail.com"><i class="fas fa-envelope"></i> Correo</a>
-            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/andrefontainhas/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
     </div>
 </footer>
@@ -220,23 +217,27 @@ function setupLanguageSelector() {
     `;
 }
 
-// Alternância de tema (dark mode)
-function initTheme() {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
+// === FUNÇÕES DE TEMA (sem botão manual) ===
+
+// Aplica o tema (claro/escuro)
+function applyTheme(isDark) {
+    if (isDark) {
         document.body.classList.add('dark');
-        const themeBtn = document.querySelector('#toggle-theme');
-        if (themeBtn) themeBtn.textContent = '☀️';
+    } else {
+        document.body.classList.remove('dark');
     }
-    document.addEventListener('click', (e) => {
-        if (e.target.id === 'toggle-theme' || e.target.parentElement?.id === 'toggle-theme') {
-            document.body.classList.toggle('dark');
-            const isDark = document.body.classList.contains('dark');
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            const btn = document.querySelector('#toggle-theme');
-            if (btn) btn.textContent = isDark ? '☀️' : '🌙';
-        }
-    });
+}
+
+// Inicializa o tema com base no sistema ou na hora
+function initTheme() {
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (systemPrefersDark !== undefined) {
+        applyTheme(systemPrefersDark);
+        return;
+    }
+    const hours = new Date().getHours();
+    const isNightTime = (hours >= 20 || hours < 7);
+    applyTheme(isNightTime);
 }
 
 // Corrige caminhos dos PDFs (troca \ por /)

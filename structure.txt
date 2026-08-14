@@ -3,29 +3,32 @@ Curriculo/
 │   ├── flags/
 │   │   ├── portugal.png
 │   │   ├── spain.png
-│   │   ├── uh.png
-│   ├──favicon.ico
-│   ├──favicon1.ico
-│   ├──favicon2.ico
-│   ├──foto.jpeg
-│   ├──home.png
-│   ├──lua.png
-│   ├──sol.png
-│   ├──sthumbnail.jpg
-├── Certificates/ (**Contains all the pdf os certificates**)
+│   │   └── uk.png
+│   ├── favicon.ico
+│   ├── favicon1.ico
+│   ├── favicon2.ico
+│   ├── foto.jpeg
+│   ├── home.png
+│   ├── lua.png
+│   ├── sol.png
+│   └── thumbnail.jpg
+├── Certificates/              
 ├── certificados.html
-├── certificados-es.html
 ├── certificados-en.html
+├── certificados-es.html
 ├── index.html
-├── index-es.html
 ├── index-en.html
+├── index-es.html
 ├── projetos.html
-├── projetos-es.html
 ├── projetos-en.html
+├── projetos-es.html
 ├── publicacoes.html
-├── publicacoes-es.html
 ├── publicacoes-en.html
+├── publicacoes-es.html
+├── tese.html 
+├── thesis-en.html
+├── tesis-es.html 
 ├── script.js
 ├── style.css
-├── style-test.css
-└── structure.txt
+├── structure.txt
+└── README.md
