@@ -16,7 +16,7 @@ const headerPT = `
             <a href="https://github.com/Fontainhas9" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Cargo Atual:</strong> Programador de Software na Holoss, onde desenvolvo uma plataforma para gestão de dados internos e externos, integrando datasets de projetos e fontes heterogéneas, com foco em eficiência, escalabilidade e apoio à decisão.
+            <strong>Cargo Atual:</strong> Programador de Software na Holoss, onde desenvolvo uma plataforma para gestão de dados, integrando datasets de projetos e fontes heterogéneas, com foco em eficiência, escalabilidade e apoio à decisão.
         </p>
         <p class="description">
             <strong>Especialização Técnica:</strong> Desenvolvimento de soluções full‑stack (Python, Flask, JavaScript) e integração de sistemas, combinado com análise de dados (Power BI, Pandas) para transformar grandes volumes de dados em insights estratégicos. Experiência comprovada em arquitetura de dados, modelação e visualização, com publicações em conferências internacionais (IEEE, Springer) nas áreas de V2X e sistemas de localização.
@@ -54,7 +54,7 @@ const headerEN = `
             <a href="https://github.com/Fontainhas9" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Current Position:</strong> Software Developer at Holoss, where I am building a platform for internal and external data management, integrating project datasets and heterogeneous sources, focusing on efficiency, scalability, and decision support.
+            <strong>Current Position:</strong> Software Developer at Holoss, where I am building a platform for data management, integrating project datasets and heterogeneous sources, focusing on efficiency, scalability, and decision support.
         </p>
         <p class="description">
             <strong>Technical Expertise:</strong> Full‑stack development (Python, Flask, JavaScript) and system integration, combined with data analytics (Power BI, Pandas) to turn large volumes of data into strategic insights. Proven experience in data architecture, modeling, and visualization, with publications in international conferences (IEEE, Springer) in V2X and localization systems.
@@ -92,7 +92,7 @@ const headerES = `
             <a href="https://github.com/Fontainhas9" target="_blank" rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
         <p class="description">
-            <strong>Puesto Actual:</strong> Desarrollador de Software en Holoss, donde desarrollo una plataforma para la gestión de datos internos y externos, integrando datasets de proyectos y fuentes heterogéneas, con enfoque en eficiencia, escalabilidad y apoyo a la decisión.
+            <strong>Puesto Actual:</strong> Desarrollador de Software en Holoss, donde desarrollo una plataforma para la gestión de datos, integrando datasets de proyectos y fuentes heterogéneas, con enfoque en eficiencia, escalabilidad y apoyo a la decisión.
         </p>
         <p class="description">
             <strong>Especialización Técnica:</strong> Desarrollo de soluciones full‑stack (Python, Flask, JavaScript) e integración de sistemas, combinado con análisis de datos (Power BI, Pandas) para transformar grandes volúmenes de datos en insights estratégicos. Experiencia comprobada en arquitectura de datos, modelado y visualización, con publicaciones en conferencias internacionales (IEEE, Springer) en las áreas de V2X y sistemas de localización.
