@@ -240,17 +240,9 @@ function initTheme() {
     applyTheme(isNightTime);
 }
 
-// Corrige caminhos dos PDFs (troca \ por /)
-function fixPdfPaths() {
-    document.querySelectorAll('a[href*="Certificates\\"]').forEach(link => {
-        link.href = link.href.replace(/\\/g, '/');
-    });
-}
-
 // Inicialização
 document.addEventListener('DOMContentLoaded', () => {
     injectHeaderFooter();
     setupLanguageSelector();
     initTheme();
-    fixPdfPaths();
 });

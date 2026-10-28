@@ -166,7 +166,7 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* === CARDS (JOB, DEGREE, ARTICLE) - COLUNA DA DATA MAIS LARGA === */
+/* === CARDS (JOB, DEGREE, ARTICLE) === */
 .job, .degree, .article {
     margin-bottom: 1.5rem;
     display: grid;
@@ -195,7 +195,6 @@ h2 {
     padding: 1rem;
 }
 
-/* Garantir que o botão dentro de .article-details fique centralizado */
 .article-details .button-container {
     margin-top: 1.5rem;
 }
@@ -367,25 +366,6 @@ h2 {
     transform: scale(1.05);
 }
 
-.theme-toggle {
-    width: 35px;
-    height: 35px;
-    background: rgba(0, 0, 0, 0.05);
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-}
-
-.theme-toggle:hover {
-    background: rgba(0, 0, 0, 0.1);
-    transform: rotate(15deg);
-}
-
 /* === FOOTER === */
 footer {
     background-color: #2C3E50;
@@ -416,15 +396,6 @@ footer a {
 
 footer a:hover {
     color: #3498DB;
-}
-
-/* === PDF CONTAINER === */
-.pdf-container {
-    width: 100%;
-    margin: 2rem 0;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 /* === DARK MODE === */
@@ -506,11 +477,6 @@ body.dark .highlight {
     background-clip: text;
 }
 
-body.dark .theme-toggle {
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-}
-
 /* === UTILITY CLASSES === */
 .text-center {
     text-align: center;
@@ -586,7 +552,6 @@ body.dark .theme-toggle {
 @media print {
     .top-right-controls,
     .home-button,
-    .theme-toggle,
     .button-container,
     .social-links {
         display: none;
